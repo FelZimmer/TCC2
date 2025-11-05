@@ -11,7 +11,7 @@ export default function Team() {
     name: "Erick Yu Xiang Li",
     role: "CFO - Chief Financial Officer",
     avatar: "erick.jpg",
-    description: "O CFO é fundamental para moldar a estratégia financeira de longo prazo e garantir a solidez e o crescimento sustentável da empresa."
+    description: "O CFO é fundamental para moldar a estratégia financeira de longo prazo garantindo a solidez e o crescimento sustentável da empresa."
   },
   {
     name: "Felipe de Oliveira Zimmermann",
