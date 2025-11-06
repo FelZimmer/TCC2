@@ -28,20 +28,20 @@
   display: flex;
  
   align-items: center;
-  justify-content: center; /* Centraliza verticalmente */
+  justify-content: center; 
  
 }
 
 .hero-text {
-        /* Aumenta largura do texto */
-  font-size: 2.4rem;        /* Texto maior */
-  margin: 0;                /* Remove margem lateral */
+       
+  font-size: 2.4rem;      
+  margin: 0;               
   opacity: 0;
   transform: translateY(-50px);
   transition: all 1s ease;
-  text-align: center;       /* Centraliza texto */
+  text-align: center;       
   width: 100%;
-  padding: 2.5rem 0;           /* Espaço interno maior */
+  padding: 2.5rem 0;           
 }
 
 .hero-text.fade-in-left {
@@ -51,25 +51,25 @@
 
 .hero-text h1 {
 
-  font-size: 4.5rem;          /* Título maior */
+  font-size: 4.5rem;       
   font-weight: bold;
   color: #111;
-  line-height: 1.2; /* aproxima as linhas */
+  line-height: 1.2; 
 }
 
 .hero-text h1 span {
   color: #0563A9;
-  display: inline-block; /* mantém alinhamento */
+  display: inline-block; 
 }
 
 .hero-text h1 .block {
-  display: block; /* força quebra e alinhamento perfeito */
+  display: block; 
 
 }
 
 
 .subtitle {
-  font-size: 2.2rem;           /* Subtítulo maior */
+  font-size: 2.2rem;           
   color: #2d3559;
 }
 
@@ -78,6 +78,7 @@
   display: flex;
   gap: 3rem;
   justify-content: center;
+  align-items: flex-end;
   width: 100%;
 }
 
@@ -120,7 +121,7 @@
 }
 
 .card {
-  width: 240px;                /* Cartão maior */
+  width: 240px;                
   border-radius: 12px;
   color: white;
   font-weight: bold;
