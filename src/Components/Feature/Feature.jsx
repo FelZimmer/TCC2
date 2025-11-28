@@ -19,7 +19,7 @@ const features = [
   },
   {
     id: 2,
-    title: "Aumento do Ticket Médio nas Drogarias",
+    title: "Aumento do Ticket Médio ",
     description: "Enquanto aguarda o pedido, o cliente pode explorar a loja e realizar novas compras, aumentando as vendas da Drogaria e tornando o tempo de espera mais proveitoso",
     icon: <FaMoneyBillTrendUp size={30} color="#000000ff" />,
     position: "top-right"
