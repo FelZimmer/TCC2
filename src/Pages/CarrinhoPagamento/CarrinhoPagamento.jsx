@@ -10,8 +10,8 @@ const CarrinhoPagamento = () => {
   
   // Medicamentos padrão da receita que sempre estarão disponíveis inicialmente
   const medicamentosPadraoReceita = [
-    { id: 101, nome: 'Amoxilina', descricao: 'Amoxilina 500mg - 21 comprimidos', preco: 45.90, imagem: '/images/photo1764356475.jpg', tipo: 'receita' },
-    { id: 102, nome: 'Avamys', descricao: 'Fluticasona 27,5mcg - 120 doses', preco: 89.50, imagem: '/public/images/Remedios/Avamys.png', tipo: 'receita' }
+    { id: 101, nome: 'Ecobag TotSimple', descricao: 'Sacola reutilizável que serve como alternativa às sacolas plásticas descartáveis.', preco: 45.90, imagem: '/images/photo1764356475.jpg', tipo: 'receita' },
+    { id: 102, nome: 'Álcool Gel 70% TotSimple', descricao: 'Serve para higienizar as mãos e desinfetar superfícies.', preco: 89.50, imagem: '/public/images/Remedios/Avamys.png', tipo: 'receita' }
   ];
 
   const [medicamentosReceita, setMedicamentosReceita] = useState(medicamentosPadraoReceita);
